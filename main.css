@@ -3,12 +3,14 @@ h1 {
   text-align: center;
   font-size: 10vw;
   margin-top: 6.25%;
+  shadow: -1px 2px 5px black;
 }
 h2 {
   font-family: Impact, sans-serif;
   text-align: center;
   font-size: 8.5vw;
   margin-top: -8.5%;
+  shadow: -1px 2px 5px black;
 }
 .navigationBar {
   height: 4vw;
