@@ -1,0 +1,59 @@
+h1 {
+  font-family: Impact, sans-serif;
+  text-align: center;
+  font-size: 10vw;
+  margin-top: 6.25%;
+}
+.navigationBar {
+  height: 4vw;
+  width: 100vw;
+  background-color: #590000;
+  opacity: 0.975;
+  margin-left: -1%;
+  margin-top: -6.25%;
+  position: fixed;
+  verticle-align: top;
+  display: inline-block;
+}
+a.button {
+  text-decoration: none;
+  font-size: 3.4vw;
+  font-family: impact, sans-serif;
+  height: 2.5vh;
+  padding-bottom: 0.125vw;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+@-webkit-keyframes mouseover {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 1;
+    border: 2.5px solid black;
+  }
+}
+
+/* Standard syntax */
+
+@keyframes mouseover {
+  from {
+    background-color: #590000;
+  }
+  to {
+    background-color: #222222;
+  }
+}
+
+.button:hover {
+  background-color: #222222;
+  -webkit-animation-name: mouseover;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: mouseover;
+  animation-duration: 1s;
+}
+body {
+}
