@@ -33,11 +33,10 @@ a.button {
 
 @-webkit-keyframes mouseover {
   from {
-    opacity: 0.85;
+    background-color: #590000;
   }
   to {
-    opacity: 1;
-    border: 2.5px solid black;
+    background-color: #222222;
   }
 }
 
