@@ -11,7 +11,7 @@ h2 {
   margin-top: -8.5%;
 }
 .navigationBar {
-  height: 3.325vw;
+  height: 4.25vw;
   width: 100vw;
   background-color: #590000;
   opacity: 0.975;
@@ -23,7 +23,7 @@ h2 {
 }
 a.button {
   text-decoration: none;
-  font-size: 2.75vw;
+  font-size: 3.5vw;
   font-family: impact, sans-serif;
   height: 2vh;
   padding-bottom: 0.125vw;
